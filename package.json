@@ -1,0 +1,50 @@
+{
+  "name": "generator-angular-foundation",
+  "version": "0.0.1",
+  "description": "Yeoman generator for AngularJS with Foundation",
+  "keywords": [
+    "yeoman-generator",
+    "scaffold",
+    "framework",
+    "component",
+    "front-end",
+    "foundation",
+    "angularjs",
+    "app"
+  ],
+  "homepage": "https://github.com/indiejoseph/generator-angular-foundation",
+  "bugs": "https://github.com/indiejoseph/generator-angular-foundation/issues",
+  "author": "Joseph Cheng",
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/indiejoseph/generator-angular-foundation.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "yeoman-generator": "~0.12.0"
+  },
+  "peerDependencies": {
+    "generator-karma": "~0.3.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.11.0",
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-conventional-changelog": "~0.1.0",
+    "marked": "~0.2.8",
+    "semver": "~2.0.0",
+    "grunt-release": "~0.3.3"
+  },
+  "engines": {
+    "node": ">=0.8.0",
+    "npm": ">=1.2.10"
+  },
+  "licenses": [
+    {
+      "type": "BSD"
+    }
+  ]
+}
