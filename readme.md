@@ -1,4 +1,4 @@
-# AngularJS generator
+# AngularJS with Foundation generator
 
 Maintainer: [Joseph Cheng](https://github.com/indiejoseph)
 
