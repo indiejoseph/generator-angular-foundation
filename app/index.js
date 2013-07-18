@@ -132,6 +132,8 @@ Generator.prototype.foundationFiles = function foundationFiles() {
   var source = 'styles/' + ( sass ? 'scss/' : 'css/' );
 
   if (sass) {
+    files.push('_normalize.scss');
+    files.push('_settings.scss');
     files.push('main.scss');
   } else {
     if (this.foundation) {
