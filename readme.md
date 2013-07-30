@@ -9,7 +9,9 @@ Based on [generator-angular](https://github.com/yeoman/generator-angular/)
 
 Install `generator-angular-foundation`:
 ```
-npm install -g generator-foundation
+git clone git@github.com:indiejoseph/generator-angular-foundation.git
+cd generator-angular-foundation
+npm link
 ```
 
 Make a new directory, and `cd` into it:
@@ -17,9 +19,9 @@ Make a new directory, and `cd` into it:
 mkdir my-new-project && cd $_
 ```
 
-Run `yo angular`, optionally passing an app name:
+Run `yo angular-foundation`, optionally passing an app name:
 ```
-yo angular [app-name]
+yo angular-foundation [app-name]
 ```
 
 ## Generators
